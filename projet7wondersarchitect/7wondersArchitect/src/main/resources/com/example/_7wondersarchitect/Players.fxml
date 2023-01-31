@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="366.0" prefWidth="461.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example._7wondersarchitect.PlayersController">
+   <children>
+      <ImageView fitHeight="502.0" fitWidth="1004.0" layoutX="1.0" layoutY="2.0">
+         <image>
+            <Image url="@../../../images/page3.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="450.0" layoutY="400.0" prefHeight="50.0" prefWidth="120.0" mnemonicParsing="false" onAction="#StartClicked" text="Start" />
+      <TextField fx:id="Name1" layoutX="200.0" layoutY="100.0" />
+      <TextField fx:id="Name5" layoutX="700.0" layoutY="100.0" />
+      <TextField fx:id="Name6" layoutX="700.0" layoutY="200.0" />
+      <TextField fx:id="Name4" layoutX="200.0" layoutY="400.0" />
+      <TextField fx:id="Name2" layoutX="200.0" layoutY="200.0" />
+      <TextField fx:id="Name7" layoutX="700.0" layoutY="300.0" />
+      <TextField fx:id="Name3" layoutX="200.0" layoutY="300.0" />
+      <ChoiceBox fx:id="Wonder1" layoutX="200.0" layoutY="130.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="Wonder2" layoutX="200.0" layoutY="230.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="Wonder5" layoutX="700.0" layoutY="130.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="Wonder6" layoutX="700.0" layoutY="230.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="Wonder3" layoutX="200.0" layoutY="330.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="Wonder4" layoutX="200.0" layoutY="430.0" prefWidth="150.0" />
+      <ChoiceBox fx:id="Wonder7" layoutX="700.0" layoutY="330.0" prefWidth="150.0" />
+
+      <Label layoutX="180.0" layoutY="100.0" text="1 :" textFill="#f8fff1">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="200.0" text="2 :" textFill="#f8fff1">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="300.0" text="3 :" textFill="#f8fff1">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="180.0" layoutY="400.0" text="4 :" textFill="#f8fff1">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="680.0" layoutY="100.0" text="5 :" textFill="#f8fff1">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="680.0" layoutY="200.0" text="6 :" textFill="#f8fff1">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="680.0" layoutY="300.0" text="7 :" textFill="#f8fff1">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="250.0" prefHeight="60.0" prefWidth="1000" text="CHOISISSEZ LES NOMS ET CIVILISATIONS" textFill="WHITE">
+         <font>
+            <Font name="lucida sans typewriter" size="32.0" />
+         </font>
+      </Label>
+      <Label fx:id="CanLaunch" layoutX="355.0" layoutY="350.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
